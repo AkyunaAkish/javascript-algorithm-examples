@@ -97,3 +97,15 @@ module.exports = pyramid;
     
 //     return pyramid(n, count + 1);
 // }
+
+// solution #4 
+// const pyramid = (n) => {
+//     let maxLen = n + n - 1;
+
+//     for (let i = 1; i <= n; i++) {
+//         let hashes = '#'.repeat(i + i - 1);
+//         let spaces = ' '.repeat(maxLen - hashes.length / 2);
+
+//         console.log(`${spaces}${hashes}${spaces}`)
+//     }
+// };
