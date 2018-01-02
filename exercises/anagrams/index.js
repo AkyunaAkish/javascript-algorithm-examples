@@ -9,11 +9,11 @@
 //   anagrams('Hi there', 'Bye there') --> False
 
 // solution #3
-const anagrams = (strA, strB) => formatStr(strA) === formatStr(strB);
+// const anagrams = (strA, strB) => formatStr(strA) === formatStr(strB);
 
-const formatStr = (str) => str.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('');
+// const formatStr = (str) => str.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('');
 
-module.exports = anagrams;
+// module.exports = anagrams;
 
 
 // solution #1
